@@ -15,3 +15,5 @@ Working paper coming soon ...
 |UNGA Resolutions | UN |
 |Firms' Annual Reports | Loughran and McDonald (2016)|
 | U.S. Court Opinions | Caselaw Access Project|
+
+The model is trained on 4 NVIDIA A100 GPUs for 120K steps.
