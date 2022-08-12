@@ -1,2 +1,2 @@
-# TESS
-Transformer Encoder for Social Science
+# Transformer Encoder for Social Science (TESS)
+
