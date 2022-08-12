@@ -1,0 +1,9 @@
+sentencepiece
+torch
+numpy
+spacy
+transformers
+datasets
+accelerate
+sklearn
+pandas

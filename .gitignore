@@ -1,0 +1,17 @@
+*/__pycache__/
+__pycache__/
+.DS_Store
+data/*
+model/*
+!*/README.txt
+.idea/
+log_*
+salloc.txt
+*#
+*.slurm~
+cache/
+*.log
+*.slurm
+.Rproj.user
+.Rhistory
+.Rproj
