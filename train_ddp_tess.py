@@ -31,28 +31,10 @@ def print_gpu_utilization():
     print(f"GPU memory occupied: {info.used // 1024 ** 2} MB.")
 
 
-# def print_summary(result):
-#     print(f"Time: {result.metrics['train_runtime']:.2f}")
-#     print(f"Samples/second: {result.metrics['train_samples_per_second']:.2f}")
-#     print_gpu_utilization()
 torch.manual_seed(1)
 
 # =========== Train =================#
-# traindata_list = ["wikitext_sent_pair_train.csv.gz"]
-annual_report = []
-traindata_list_orig = ["mixed.csv.gz",'ny.csv.gz','congressional_bill.csv.gz']
-traindata_list = ['data/' + x[:-7]+'_sop'+'.csv.gz' for x in traindata_list_orig]
-past_data = ['us.csv.gz', 'idaho.csv.gz', 'ind.csv.gz', 'iowa.csv.gz','kan.csv.gz', 'ky.csv.gz', 'la.csv.gz', 'mass.csv.gz',
-             'md.csv.gz', 'me.csv.gz', 'mich.csv.gz', 'minn.csv.gz', 'miss.csv.gz', 'mo.csv.gz',
-                       'mont.csv.gz', 'navajo-nation.csv.gz', 'nd.csv.gz', 'neb.csv.gz', 'nev.csv.gz', 'nh.csv.gz', 'nj.csv.gz', 'n-mar-i.csv.gz',
-             'okla.csv.gz', 'or.csv.gz', 'pa.csv.gz', 'pr.csv.gz', 'ri.csv.gz', 'sc.csv.gz', 'sd.csv.gz',
-             'tenn.csv.gz', 'tex.csv.gz', 'tribal.csv.gz', 'uk.csv.gz', 'utah.csv.gz', 'va.csv.gz',
-             'vi.csv.gz', 'vt.csv.gz', 'wash.csv.gz', 'wis.csv.gz', 'w-va.csv.gz', 'wyo.csv.gz', 'ala.csv.gz',
-             'alaska.csv.gz', 'am-samoa.csv.gz', 'ariz.csv.gz', 'cal.csv.gz', 'conn.csv.gz', 'dakota-territory.csv.gz',
-             'dc.csv.gz', 'del.csv.gz', 'fla.csv.gz', 'guam.csv.gz', 'haw.csv.gz', 'AnnualReport0.csv.gz','AnnualReport2.csv.gz',
-             'ohio.csv.gz', 'ga.csv.gz','AnnualReport1.csv.gz']
-problem_data = ['colo.csv.gz','fla.csv.gz']
-
+traindata_list = []
 
 
 train_args = TrainArgs(total_steps=1000000,
