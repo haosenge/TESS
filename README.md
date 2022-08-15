@@ -11,7 +11,7 @@ Working paper coming soon ...
 |     TEXT      |    SOURCE     |
 | ------------- | ------------- |
 | Preferential Trade Agreements  | ToTA  |
-| Congressional Bills  | BillSum  |
+| Congressional Bills  | Kornilova and Eidelman (2019)  |
 |UNGA Resolutions | UN |
 |Firms' Annual Reports | Loughran and McDonald (2016)|
 | U.S. Court Opinions | Caselaw Access Project|
