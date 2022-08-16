@@ -2,6 +2,8 @@
 
 TESS is a deep neural network model intended for social science related NLP tasks. The model is developed by Haosen Ge, In Young Park, Xuancheng Qian, and Grace Zeng. 
 
+We demonstrate in two validation tests that TESS outperforms BERT and RoBERTa by 16.7\% on average, especially when the number of training samples is limited (<1,000 training instances). The results display the superiority of TESS on social science text processing tasks. 
+
 The pretrained model weights can be found on Hugging Face: [TESS_768_v1](https://huggingface.co/hsge/TESS_768_v1).
 
 Working paper coming soon ...
@@ -17,3 +19,4 @@ Working paper coming soon ...
 | U.S. Court Opinions | Caselaw Access Project|
 
 The model is trained on 4 NVIDIA A100 GPUs for 120K steps.
+
