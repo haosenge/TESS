@@ -6,7 +6,7 @@ We demonstrate in two validation tests that TESS outperforms BERT and RoBERTa by
 
 The pretrained model weights can be found on Hugging Face: [TESS_768_v1](https://huggingface.co/hsge/TESS_768_v1).
 
-Working paper coming soon ...
+Working paper: [Paper](https://www.haosenge.net/_files/ugd/557840_3ce498a7fbc74d6581a947b6c72ef463.pdf).
 
 <h2>Training Corpus</h2>
 
